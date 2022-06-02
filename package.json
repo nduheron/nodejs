@@ -6,12 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint src/**/*.js -f json -o report.json",
-    "sonar": "npm run eslint && sonar-scanner"
+    "sonar": "sonar-scanner"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.16.0",
     "sonarqube-scanner": "^2.8.1"
+  },
+  "dependencies": {
+    "eslint-plugin-greenit": "file:../../ecoLinter"
   }
 }

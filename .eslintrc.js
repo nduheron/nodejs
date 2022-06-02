@@ -8,9 +8,13 @@ module.exports = {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "plugins": [
+        "greenit"
+    ],
     "rules": {
         "no-eval": "error",
         "semi": ["error", "always"],
-        "quotes": ["error", "double"]
+        "quotes": ["error", "double"],
+        "greenit/s67": 2
     }
 }
