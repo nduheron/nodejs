@@ -8,6 +8,11 @@ const myFunction = () => {
 
     let counter = 0;
     counter++;
+    const test = {};
+    Object.defineProperty(test, "bar", {
+        get: () => { "toto" }
+    })
+    setTimeout("bouh", 4)
 };
 
 myFunction();

@@ -3,7 +3,6 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
-    "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
@@ -12,9 +11,7 @@ module.exports = {
         "greenit"
     ],
     "rules": {
-        "no-eval": "error",
-        "semi": ["error", "always"],
-        "quotes": ["error", "double"],
-        "greenit/s67": 2
-    }
+        "greenit/no-override-get-set": 2,
+        "greenit/no-string-argument-settimeout-setinterval": 2
+  }
 }
