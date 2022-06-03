@@ -1,10 +1,10 @@
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-recommended"
-  ],
-  "rules": {
-    "testim-plugin/standard-policy": true,
-    "greenit/avoid-animation": true
-  }
+    "plugins": [
+        "./node_modules/eslint-plugin-greenit/lib/rules/css/avoid-animation.js",
+        "./node_modules/eslint-plugin-greenit/lib/rules/css/no-custom-font.js"
+    ],
+    "rules": {
+        "testim-plugin/standard-policy": true,
+        "greenit/avoid-animation": true
+    }
 }
