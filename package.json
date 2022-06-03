@@ -13,9 +13,13 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.16.0",
+    "eslint-plugin-greenit": "file:../ecoLinter",
     "postcss-lit": "^0.4.3",
     "sonarqube-scanner": "^2.8.1",
     "stylelint": "^14.8.5",
     "stylelint-config-standard": "^25.0.0"
+  },
+  "dependencies": {
+    "sonar-scanner": "^3.1.0"
   }
 }

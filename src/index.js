@@ -11,8 +11,11 @@ const myFunction = () => {
     const test = {};
     Object.defineProperty(test, "bar", {
         get: () => { "toto" }
-    })
-    setTimeout("bouh", 4)
+    });
+    setTimeout("bouh", 4);
+
+    var sqlRequest = "SELECT * FROM test";
+    console.log(sqlRequest);
 };
 
 myFunction();

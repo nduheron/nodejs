@@ -12,6 +12,7 @@ module.exports = {
     ],
     "rules": {
         "greenit/no-override-get-set": 2,
-        "greenit/no-string-argument-settimeout-setinterval": 2
+        "greenit/no-string-argument-settimeout-setinterval": 2,
+        "greenit/no-full-sql-request": 2
   }
 }
