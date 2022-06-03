@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint src/**/*.js -f json -o report.json",
-    "csslint": "npx stylelint \"src/*.css\" --config-basedir \".\\node_modules\\\"",
+    "csslint": "npx stylelint \"src/*.css\" -f json > stylelint-report.json",
     "sonar": "sonar-scanner"
   },
   "author": "",
@@ -17,8 +17,5 @@
     "sonarqube-scanner": "^2.8.1",
     "stylelint": "^14.8.5",
     "stylelint-config-standard": "^25.0.0"
-  },
-  "dependencies": {
-    "eslint-plugin-greenit": "file:../../ecoLinter"
   }
 }
